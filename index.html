@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Stato Vasche</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    .status-verde {
+      background-color: #c8e6c9;
+      color: green;
+      font-weight: bold;
+    }
+    .status-rosso {
+      background-color: #ffcdd2;
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Stato Vasche</h1>
+  <table>
+    <tr>
+      <th>Nome Vasca</th>
+      <th>Stato</th>
+      <th>Certificato n°1</th>
+      <th>Certificato n°2</th>
+    </tr>
+    <tr>
+      <td>Vasca 1</td>
+      <td class="status-verde">OK</td>
+      <td>12345</td>
+      <td>67890</td>
+    </tr>
+    <tr>
+      <td>Vasca 2</td>
+      <td class="status-rosso">Errore</td>
+      <td>22345</td>
+      <td>77890</td>
+    </tr>
+  </table>
+</body>
+</html>
